@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41CD9B1B29708D7800F19667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD9B1A29708D7800F19667 /* AppDelegate.swift */; };
+		41CD9B1D29708D7800F19667 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD9B1C29708D7800F19667 /* SceneDelegate.swift */; };
+		41CD9B1F29708D7800F19667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD9B1E29708D7800F19667 /* ViewController.swift */; };
+		41CD9B2229708D7800F19667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9B2029708D7800F19667 /* Main.storyboard */; };
+		41CD9B2429708D7F00F19667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9B2329708D7F00F19667 /* Assets.xcassets */; };
+		41CD9B2729708D7F00F19667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CD9B2529708D7F00F19667 /* LaunchScreen.storyboard */; };
+		41CD9B3229708D8000F19667 /* DoganKaptanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD9B3129708D8000F19667 /* DoganKaptanTests.swift */; };
+		41CD9B3D29708D8000F19667 /* DoganKaptanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD9B3C29708D8000F19667 /* DoganKaptanUITests.swift */; };
+		41CD9B4F297120F400F19667 /* EntreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD9B4E297120F400F19667 /* EntreeViewController.swift */; };
+		41CD9B542971216600F19667 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD9B532971216600F19667 /* ToDoViewController.swift */; };
+		41EA73CB297197AD0092066C /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EA73CA297197AD0092066C /* ToDo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41CD9B2E29708D8000F19667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41CD9B0F29708D7700F19667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41CD9B1629708D7700F19667;
+			remoteInfo = DoganKaptan;
+		};
+		41CD9B3929708D8000F19667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41CD9B0F29708D7700F19667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41CD9B1629708D7700F19667;
+			remoteInfo = DoganKaptan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41CD9B1729708D7700F19667 /* DoganKaptan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoganKaptan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CD9B1A29708D7800F19667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41CD9B1C29708D7800F19667 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41CD9B1E29708D7800F19667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41CD9B2129708D7800F19667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41CD9B2329708D7F00F19667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41CD9B2629708D7F00F19667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41CD9B2829708D7F00F19667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41CD9B2D29708D8000F19667 /* DoganKaptanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoganKaptanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CD9B3129708D8000F19667 /* DoganKaptanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoganKaptanTests.swift; sourceTree = "<group>"; };
+		41CD9B3329708D8000F19667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41CD9B3829708D8000F19667 /* DoganKaptanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoganKaptanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CD9B3C29708D8000F19667 /* DoganKaptanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoganKaptanUITests.swift; sourceTree = "<group>"; };
+		41CD9B3E29708D8000F19667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41CD9B4E297120F400F19667 /* EntreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntreeViewController.swift; sourceTree = "<group>"; };
+		41CD9B532971216600F19667 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		41EA73CA297197AD0092066C /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41CD9B1429708D7700F19667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CD9B2A29708D8000F19667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CD9B3529708D8000F19667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41CD9B0E29708D7700F19667 = {
+			isa = PBXGroup;
+			children = (
+				41CD9B1929708D7700F19667 /* DoganKaptan */,
+				41CD9B3029708D8000F19667 /* DoganKaptanTests */,
+				41CD9B3B29708D8000F19667 /* DoganKaptanUITests */,
+				41CD9B1829708D7700F19667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41CD9B1829708D7700F19667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41CD9B1729708D7700F19667 /* DoganKaptan.app */,
+				41CD9B2D29708D8000F19667 /* DoganKaptanTests.xctest */,
+				41CD9B3829708D8000F19667 /* DoganKaptanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41CD9B1929708D7700F19667 /* DoganKaptan */ = {
+			isa = PBXGroup;
+			children = (
+				41EA73CA297197AD0092066C /* ToDo.swift */,
+				41CD9B1A29708D7800F19667 /* AppDelegate.swift */,
+				41CD9B1C29708D7800F19667 /* SceneDelegate.swift */,
+				41CD9B1E29708D7800F19667 /* ViewController.swift */,
+				41CD9B4E297120F400F19667 /* EntreeViewController.swift */,
+				41CD9B532971216600F19667 /* ToDoViewController.swift */,
+				41CD9B2029708D7800F19667 /* Main.storyboard */,
+				41CD9B2329708D7F00F19667 /* Assets.xcassets */,
+				41CD9B2529708D7F00F19667 /* LaunchScreen.storyboard */,
+				41CD9B2829708D7F00F19667 /* Info.plist */,
+			);
+			path = DoganKaptan;
+			sourceTree = "<group>";
+		};
+		41CD9B3029708D8000F19667 /* DoganKaptanTests */ = {
+			isa = PBXGroup;
+			children = (
+				41CD9B3129708D8000F19667 /* DoganKaptanTests.swift */,
+				41CD9B3329708D8000F19667 /* Info.plist */,
+			);
+			path = DoganKaptanTests;
+			sourceTree = "<group>";
+		};
+		41CD9B3B29708D8000F19667 /* DoganKaptanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41CD9B3C29708D8000F19667 /* DoganKaptanUITests.swift */,
+				41CD9B3E29708D8000F19667 /* Info.plist */,
+			);
+			path = DoganKaptanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41CD9B1629708D7700F19667 /* DoganKaptan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41CD9B4129708D8000F19667 /* Build configuration list for PBXNativeTarget "DoganKaptan" */;
+			buildPhases = (
+				41CD9B1329708D7700F19667 /* Sources */,
+				41CD9B1429708D7700F19667 /* Frameworks */,
+				41CD9B1529708D7700F19667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoganKaptan;
+			productName = DoganKaptan;
+			productReference = 41CD9B1729708D7700F19667 /* DoganKaptan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41CD9B2C29708D8000F19667 /* DoganKaptanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41CD9B4429708D8000F19667 /* Build configuration list for PBXNativeTarget "DoganKaptanTests" */;
+			buildPhases = (
+				41CD9B2929708D8000F19667 /* Sources */,
+				41CD9B2A29708D8000F19667 /* Frameworks */,
+				41CD9B2B29708D8000F19667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41CD9B2F29708D8000F19667 /* PBXTargetDependency */,
+			);
+			name = DoganKaptanTests;
+			productName = DoganKaptanTests;
+			productReference = 41CD9B2D29708D8000F19667 /* DoganKaptanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41CD9B3729708D8000F19667 /* DoganKaptanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41CD9B4729708D8000F19667 /* Build configuration list for PBXNativeTarget "DoganKaptanUITests" */;
+			buildPhases = (
+				41CD9B3429708D8000F19667 /* Sources */,
+				41CD9B3529708D8000F19667 /* Frameworks */,
+				41CD9B3629708D8000F19667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41CD9B3A29708D8000F19667 /* PBXTargetDependency */,
+			);
+			name = DoganKaptanUITests;
+			productName = DoganKaptanUITests;
+			productReference = 41CD9B3829708D8000F19667 /* DoganKaptanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41CD9B0F29708D7700F19667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					41CD9B1629708D7700F19667 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					41CD9B2C29708D8000F19667 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 41CD9B1629708D7700F19667;
+					};
+					41CD9B3729708D8000F19667 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 41CD9B1629708D7700F19667;
+					};
+				};
+			};
+			buildConfigurationList = 41CD9B1229708D7700F19667 /* Build configuration list for PBXProject "DoganKaptan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41CD9B0E29708D7700F19667;
+			productRefGroup = 41CD9B1829708D7700F19667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41CD9B1629708D7700F19667 /* DoganKaptan */,
+				41CD9B2C29708D8000F19667 /* DoganKaptanTests */,
+				41CD9B3729708D8000F19667 /* DoganKaptanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41CD9B1529708D7700F19667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CD9B2729708D7F00F19667 /* LaunchScreen.storyboard in Resources */,
+				41CD9B2429708D7F00F19667 /* Assets.xcassets in Resources */,
+				41CD9B2229708D7800F19667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CD9B2B29708D8000F19667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CD9B3629708D8000F19667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41CD9B1329708D7700F19667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CD9B542971216600F19667 /* ToDoViewController.swift in Sources */,
+				41CD9B1F29708D7800F19667 /* ViewController.swift in Sources */,
+				41CD9B1B29708D7800F19667 /* AppDelegate.swift in Sources */,
+				41EA73CB297197AD0092066C /* ToDo.swift in Sources */,
+				41CD9B1D29708D7800F19667 /* SceneDelegate.swift in Sources */,
+				41CD9B4F297120F400F19667 /* EntreeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CD9B2929708D8000F19667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CD9B3229708D8000F19667 /* DoganKaptanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CD9B3429708D8000F19667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CD9B3D29708D8000F19667 /* DoganKaptanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41CD9B2F29708D8000F19667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41CD9B1629708D7700F19667 /* DoganKaptan */;
+			targetProxy = 41CD9B2E29708D8000F19667 /* PBXContainerItemProxy */;
+		};
+		41CD9B3A29708D8000F19667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41CD9B1629708D7700F19667 /* DoganKaptan */;
+			targetProxy = 41CD9B3929708D8000F19667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41CD9B2029708D7800F19667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41CD9B2129708D7800F19667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41CD9B2529708D7F00F19667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41CD9B2629708D7F00F19667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41CD9B3F29708D8000F19667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41CD9B4029708D8000F19667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41CD9B4229708D8000F19667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoganKaptan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esirem.DoganKaptan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41CD9B4329708D8000F19667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoganKaptan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esirem.DoganKaptan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41CD9B4529708D8000F19667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoganKaptanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esirem.DoganKaptanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoganKaptan.app/DoganKaptan";
+			};
+			name = Debug;
+		};
+		41CD9B4629708D8000F19667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoganKaptanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esirem.DoganKaptanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoganKaptan.app/DoganKaptan";
+			};
+			name = Release;
+		};
+		41CD9B4829708D8000F19667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoganKaptanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esirem.DoganKaptanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoganKaptan;
+			};
+			name = Debug;
+		};
+		41CD9B4929708D8000F19667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoganKaptanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esirem.DoganKaptanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoganKaptan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41CD9B1229708D7700F19667 /* Build configuration list for PBXProject "DoganKaptan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CD9B3F29708D8000F19667 /* Debug */,
+				41CD9B4029708D8000F19667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41CD9B4129708D8000F19667 /* Build configuration list for PBXNativeTarget "DoganKaptan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CD9B4229708D8000F19667 /* Debug */,
+				41CD9B4329708D8000F19667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41CD9B4429708D8000F19667 /* Build configuration list for PBXNativeTarget "DoganKaptanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CD9B4529708D8000F19667 /* Debug */,
+				41CD9B4629708D8000F19667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41CD9B4729708D8000F19667 /* Build configuration list for PBXNativeTarget "DoganKaptanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CD9B4829708D8000F19667 /* Debug */,
+				41CD9B4929708D8000F19667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41CD9B0F29708D7700F19667 /* Project object */;
+}
